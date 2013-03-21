@@ -1,0 +1,16 @@
+..\Output\portserial.o: ..\modbus\port\portserial.c
+..\Output\portserial.o: ..\modbus\port\port.h
+..\Output\portserial.o: ..\CMSIS\stm32f10x.h
+..\Output\portserial.o: ..\CMSIS\core_cm3.h
+..\Output\portserial.o: h:\Keil\ARM\RV31\INC\stdint.h
+..\Output\portserial.o: ..\CMSIS\system_stm32f10x.h
+..\Output\portserial.o: ..\USER\stm32f10x_conf.h
+..\Output\portserial.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\Output\portserial.o: ..\CMSIS\stm32f10x.h
+..\Output\portserial.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\Output\portserial.o: ..\FWlib\inc\stm32f10x_tim.h
+..\Output\portserial.o: ..\FWlib\inc\stm32f10x_usart.h
+..\Output\portserial.o: ..\FWlib\inc\misc.h
+..\Output\portserial.o: ..\modbus\include\mb.h
+..\Output\portserial.o: ..\modbus\include\mbport.h
+..\Output\portserial.o: ..\modbus\include\mbproto.h

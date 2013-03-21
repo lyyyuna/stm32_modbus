@@ -1,0 +1,16 @@
+..\Output\portevent.o: ..\modbus\port\portevent.c
+..\Output\portevent.o: ..\modbus\include\mb.h
+..\Output\portevent.o: ..\modbus\port\port.h
+..\Output\portevent.o: ..\CMSIS\stm32f10x.h
+..\Output\portevent.o: ..\CMSIS\core_cm3.h
+..\Output\portevent.o: h:\Keil\ARM\RV31\INC\stdint.h
+..\Output\portevent.o: ..\CMSIS\system_stm32f10x.h
+..\Output\portevent.o: ..\USER\stm32f10x_conf.h
+..\Output\portevent.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\Output\portevent.o: ..\CMSIS\stm32f10x.h
+..\Output\portevent.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\Output\portevent.o: ..\FWlib\inc\stm32f10x_tim.h
+..\Output\portevent.o: ..\FWlib\inc\stm32f10x_usart.h
+..\Output\portevent.o: ..\FWlib\inc\misc.h
+..\Output\portevent.o: ..\modbus\include\mbport.h
+..\Output\portevent.o: ..\modbus\include\mbproto.h

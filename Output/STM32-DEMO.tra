@@ -6,16 +6,34 @@
 ### List of Objects: adding '"..\output\stm32f10x_it.o"'
 ### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
 ### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\misc.o"'
 ### List of Objects: adding '"..\output\core_cm3.o"'
 ### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### List of Objects: adding '"..\output\mbtcp.o"'
+### List of Objects: adding '"..\output\mbcrc.o"'
+### List of Objects: adding '"..\output\mbrtu.o"'
+### List of Objects: adding '"..\output\mbascii.o"'
+### List of Objects: adding '"..\output\mbfunccoils.o"'
+### List of Objects: adding '"..\output\mbfuncdiag.o"'
+### List of Objects: adding '"..\output\mbfuncdisc.o"'
+### List of Objects: adding '"..\output\mbfuncholding.o"'
+### List of Objects: adding '"..\output\mbfuncinput.o"'
+### List of Objects: adding '"..\output\mbfuncother.o"'
+### List of Objects: adding '"..\output\mbutils.o"'
+### List of Objects: adding '"..\output\mb.o"'
+### List of Objects: adding '"..\output\portevent.o"'
+### List of Objects: adding '"..\output\portserial.o"'
+### List of Objects: adding '"..\output\porttimer.o"'
 ### ADS-LD Command completed:
---device DARMSTM "..\output\startup_stm32f10x_hd.o" "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--cpu Cortex-M3 "..\output\startup_stm32f10x_hd.o" "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_tim.o" "..\output\stm32f10x_usart.o" "..\output\misc.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\mbtcp.o" "..\output\mbcrc.o" "..\output\mbrtu.o" "..\output\mbascii.o" "..\output\mbfunccoils.o" "..\output\mbfuncdiag.o" "..\output\mbfuncdisc.o" "..\output\mbfuncholding.o" "..\output\mbfuncinput.o" "..\output\mbfuncother.o" "..\output\mbutils.o" "..\output\mb.o" "..\output\portevent.o" "..\output\portserial.o" "..\output\porttimer.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
  --list "..\Listing\STM32-DEMO.map" -o "..\Output\STM32-DEMO.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: '..\Output\STM32-DEMO.axf'
 ### ADS-LD Command File: '..\Output\STM32-DEMO.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '..\Output\STM32-DEMO.lnp', Handle=0x00000284
+### Creating CmdFile '..\Output\STM32-DEMO.lnp', Handle=0x00000240
 ### Writing '.lnp' file
 ### ADS-LD Command file '..\Output\STM32-DEMO.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
