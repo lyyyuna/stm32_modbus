@@ -24,3 +24,8 @@
 *.map
 *.cbp
 *.dep
+*.crf
+*.d
+*.lnp
+*.plg
+*.tra
