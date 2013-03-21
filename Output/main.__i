@@ -1,0 +1,1 @@
+-c --device DARMSTM -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\FWlib\inc -I..\USER -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\main.o" --omf_browse "..\Output\main.crf" --depend "..\Output\main.d" "main.c"

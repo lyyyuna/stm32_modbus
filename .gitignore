@@ -15,3 +15,12 @@
 *.exe
 *.out
 *.app
+
+
+# project related #
+*.lst
+*.txt
+*.Bak
+*.map
+*.cbp
+*.dep
